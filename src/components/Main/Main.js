@@ -28,7 +28,7 @@ const ChangeImg = () => {
       if(img.src.includes("jedi.jpeg")){
         img.src = data.avatar;
       } else {
-        img.src = "/public/images/jedi.jpeg";
+        img.src = "/images/jedi.jpeg";
       }
     }, 600); // el tiempo que tarde en el cambio de foto 
     
@@ -69,7 +69,7 @@ export const Projects = () =>{
       <img src="${p.preview}" alt="My projects"/>
       <p>${p.description}</p>
       <a href=${p.link} target="_blank">
-      <img src="public/images/vercel-dark.png" alt="Link icon" />
+      <img src="/images/vercel-dark.png" alt="Link icon" />
       </a>
     </div>
       `).join("")}
