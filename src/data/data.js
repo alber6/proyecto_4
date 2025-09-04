@@ -91,7 +91,7 @@ const data = {
     },
     {
       title: "Jedi Survivor",
-      preview: "/public/images/jedi.png",
+      preview: "/public/images/jediProject.png",
       description: "",
       link: "https://jedisurvivor.vercel.app/",
     }
