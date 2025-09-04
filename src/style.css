@@ -97,7 +97,6 @@ a > img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 10px;
-  justify-content: center;
 }
 
 #gallery > div{
@@ -106,6 +105,7 @@ a > img {
   gap: 10px;
   border-radius: 10px;
   padding: 10px;
+
 }
 
 #project-card:hover{
