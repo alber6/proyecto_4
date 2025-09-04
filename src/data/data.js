@@ -4,36 +4,46 @@ const data = {
   email: "peter.parker@email.com",
   avatar: "/public/images/cara.png",
   aboutMe:
-    "I'm a passionate photographer, web developer, and journalist with a diverse educational background. I hold a Bachelor's degree in Science, a Web Development Certification, and a Master's in Journalism. ",
+    "I'm a passionate web development student currently finishing my first year of a master degree. This portfolio is a showcase of the projects and skills I’ve been developing during my studies. My goal is to continue growing as a web developer, taking on new challenges and applying creative solutions. I invite you to explore the projects I’ve worked on so far.",
 
-  education: {
-    degree: "Bachelor of Science in Computer Science",
-    university: "City University of New York",
-    graduationYear: 2012,
-    honors: "Summa Cum Laude",
-    relevantCourses: [
-      "Web Development Fundamentals",
-      "Data Structures and Algorithms",
-      "Database Design",
-      "User Interface Design",
-    ],
+  education: [{
+    degree: "Curso Profesional de Python.",
+    university: "AEPI. Asociación Española de Programadores Informáticos",
+    graduationYear: 2024,
+    Courses: ""
+  }, {
+    degree: "Técnico superior en desarrollo de aplicaciones Web",
+    university: "ThePower Education",
+    graduationYear: 2025,
+    Courses: "Studying second year"
+  }, {
+    degree: "Máster Desarrollo de Aplicaciones Web",
+    university: "ThePower Education",
+    graduationYear: 2025,
+    Courses: "Studying second year"
+  },{
+    degree: "Certificaciones · Tech",
+    university: "ThePower Education",
+    graduationYear: 2025,
+    Courses: "Studying Microsoft Azure"
   },
+],
   workExperience: [
     {
-      position: "Web Developer",
-      company: "Tech Solutions Inc.",
-      startDate: "2013",
-      endDate: "Present",
+      position: "In progress...",
+      company: "",
+      startDate: "",
+      endDate: "",
       description:
-        "As a key member of the development team, I have contributed to various projects, from creating interactive web applications to optimizing database performance.",
+        "",
     },
     {
-      position: "Freelance Web Developer",
-      company: "Self-employed",
-      startDate: "2012",
-      endDate: "2013",
+      position: "In progress...",
+      company: "",
+      startDate: "",
+      endDate: "",
       description:
-        "During my freelancing period, I collaborated with clients from diverse industries, delivering tailor-made websites that met their unique needs and goals.",
+        "",
     },
   ],
   skills: [
@@ -42,11 +52,13 @@ const data = {
     "JavaScript",
     "React",
     "Node.js",
-    "Express.js",
-    "MongoDB",
-    "RESTful API",
+    "Python",
+    "n8n",
+    // "Express.js",
+    // "MongoDB",
+    // "RESTful API",
     "Git",
-    "Frontend and Backend Development",
+    // "Frontend and Backend Development",
   ],
   projects: [
     {
@@ -67,21 +79,21 @@ const data = {
       link: "https://olimpiadas-mu-azure.vercel.app/",
     },
     {
-      title: "4",
-      preview: "/public/images/myportfolio.png",
-      description: "",
-      link: "https://my-portfolio-bice-ten-73.vercel.app/",
+      title: "Gestor de libros",
+      preview: "/public/images/gestorLibro.png",
+      description: "XML",
+      link: "http://127.0.0.1:5500/index.html",
     },  {
-      title: "5",
-      preview:"/public/images/photosApp.png",
+      title: "Proyectos de 6ª E.P.",
+      preview:"/public/images/sexto.png",
       description:"",
-      link: "https://proyecto-3-iota.vercel.app/",
+      link: "http://trabajos-sexto.vercel.app/",
     },
     {
-      title: "6",
-      preview: "/public/images/myportfolio.png",
+      title: "Jedi Survivor",
+      preview: "/public/images/jedi.png",
       description: "",
-      link: "https://my-portfolio-bice-ten-73.vercel.app/",
+      link: "https://jedisurvivor.vercel.app/",
     }
   ],
 };

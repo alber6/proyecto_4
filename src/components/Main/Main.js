@@ -17,11 +17,35 @@ const AboutMe = () =>{
   `
 };
 
+const ChangeImg = () => {
+  const img = document.querySelector("img");
+  
+  img.addEventListener("click", () => {
+    img.classList.add("flipping");
+    
+    // Cambiar la imagen en el momento exacto de la media vuelta
+    setTimeout(() => {
+      if(img.src.includes("jedi.jpeg")){
+        img.src = data.avatar;
+      } else {
+        img.src = "/public/images/jedi.jpeg";
+      }
+    }, 600); // el tiempo que tarde en el cambio de foto 
+    
+    // Quitar la clase después de completar la animación
+    setTimeout(() => {
+      img.classList.remove("flipping");
+    }, 600); // Tiempo total de tu transición
+  });
+};
 const Education = () =>{
   return `
   <h1>EDUCATION</h1>
-  <p>${data.education.relevantCourses}<p/>
-  <p>${data.education.degree}</p>
+    ${data.education.map((d) => `
+      <h3>${d.degree} - ${d.university}</h3>
+      <p>${d.graduationYear}</p>
+      <p>${d.Courses}</p>
+    `).join("")}
   `
 };
 
@@ -29,8 +53,7 @@ const Experience = () =>{
   return `
       <h1>EXPERIENCE</h1>
       ${data.workExperience.map((d) => `
-        <h2>${d.position}</h2>
-        <h3>${d.company}</h3>
+        <h3>${d.position} ${d.company}</h3>
         <p>${d.startDate}${d.endDate}</p>
         <p>${d.description}</p>
       `).join("")}
@@ -41,7 +64,7 @@ export const Projects = () =>{
   return `
   <div id="gallery">
   ${data.projects.map((p) =>
-    `<div>
+    `<div id="project-card">
       <h1>${p.title}</h1>
       <img src="${p.preview}" alt="My projects"/>
       <p>${p.description}</p>
@@ -75,11 +98,15 @@ const Main = () =>{
   ${Projects()}
   </section>`
 
-  // explicar para que sirve
+  // setTimeout(..., 50) espera esos milisegundos antes de ejecutar el código, respiro al navegador y evita errores al cargar la página. Garantiza que se pinta todo el contenido para que despues de eso, vuelva al inicio de la pagina, aplica el tema y activa los eventos de los botones.
   setTimeout(() => {
+    // window.scrollTo(0, 0); Asegura que cuando se cargue Main(), el usuario esté en la parte de arriba de la página.   
     window.scrollTo(0, 0);
+    //changeTheme Se ejecuta después de que el contenido ya está en el DOM, así puede aplicar las clases o estilos correctamente.
     changeTheme();
+    //funcion de los eventos de los botones, como fueron creados dinamicamente, hay que esperar a que existan antes de ponerles addEventListener
     ButtonListeners();
+    ChangeImg();
   }, 50);
 };
 

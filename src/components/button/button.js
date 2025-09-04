@@ -4,6 +4,7 @@ export const Button = (id, texto, bgColor) => {
   return `<button id="${id}" style="background-color: ${bgColor}">${texto}</button>`;
 };
 
+
 export const ButtonListeners = () => {
   const btnEducation = document.getElementById("btnEducation");
   const infoEducation = document.getElementById("education");

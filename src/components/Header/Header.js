@@ -23,8 +23,8 @@ const links = [
 
 const Header = () =>
     `
-        <h1>Alberto Peinado</h1>
-        ${Nav(links)}
+      <h1>Alberto Peinado</h1>
+      ${Nav(links)}
     `
 
 export default Header;

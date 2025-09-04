@@ -29,3 +29,7 @@ nav li:hover {
     border-radius: 7px;
     width: 50px;
 }
+
+#themeBtn:hover{
+  cursor: pointer;
+}

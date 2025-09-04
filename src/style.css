@@ -5,8 +5,7 @@
   --bg-dark: #111111;
   --primary-light: #111111;
   --bg-light: whitesmoke;
-  --highlight: rgb(149, 149, 149);
-  --divider: rgb(81, 81, 81);
+  --highlight: #ffd17b;
 }
 
 section, button, nav{
@@ -33,6 +32,7 @@ body {
   background-color: var(--bg-dark);
   color: var(--primary-dark);
   transition: all 1s ease-in-out;
+  height: 8vh;
 }
 
 .light {
@@ -43,16 +43,10 @@ body {
     filter: invert(50%);
     transition: all 0.3s ease-in-out;
   }
-  
-/* #aboutme{
-  min-height: 10vh;
-} */
 
 #app{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
   text-align: center;
   gap: 30px;
   padding: 10px;
@@ -87,6 +81,12 @@ body {
   width: 200px;
   border-radius: 20px;
   height: 300px;
+   transition: transform 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.flipping {
+  transform: rotateY(90deg);
 }
 
 a > img {
@@ -104,8 +104,23 @@ a > img {
   flex-direction: column;
   gap: 10px;
   border-radius: 10px;
-  padding: 10px;  
+  padding: 10px;
 }
+
+#project-card:hover{
+    box-shadow: 0 0 20px  var(--highlight);
+    background-color: var(--highlight);
+    transition: background-color 2s ease;
+    /* color: black; */
+  }
+
+  .light #project-card:hover{
+    box-shadow: 0 0 20px  #000000;
+    background-color: #ffc75f;
+    transition: background-color 2s ease;
+    color: rgb(255, 255, 255);
+  }
+
 
 #gallery > div > img{
   height: 200px;

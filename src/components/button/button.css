@@ -5,6 +5,21 @@
     width: 200px;
 }
 
+#btnEducation:hover, #btnExperience:hover{
+  cursor: pointer;
+    box-shadow: 0 0 20px  var(--highlight);
+    background-color: var(--highlight);
+    transition: background-color 2s ease;
+    /* color: black; */
+  }
+
+  .light #btnEducation:hover, .light #btnExperience:hover{
+    box-shadow: 0 0 20px  #000000;
+    background-color: #ffc75f;
+    transition: background-color 2s ease;
+    color: rgb(255, 255, 255);
+  }
+
 #button{
   display: flex;
   flex-direction: row;
