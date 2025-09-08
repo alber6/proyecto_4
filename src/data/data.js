@@ -94,6 +94,12 @@ const data = {
       preview: "/images/jediProject.png",
       description: "",
       link: "https://jedisurvivor.vercel.app/",
+    },
+    {
+      title: "A.P.G",
+      preview: "/images/apg.png",
+      description: "",
+      link: "https://apg-khaki.vercel.app/",
     }
   ],
 };
