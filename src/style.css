@@ -40,7 +40,7 @@ body {
   color: var(--primary-light);
 }
 #gallery > div > a > img {
-    filter: invert(50%);
+    filter: invert(90%);
     transition: all 0.3s ease-in-out;
   }
 
@@ -126,6 +126,11 @@ a > img {
 #gallery > div > img{
   height: 200px;
   border-radius: 5px;
+}
+#link {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 

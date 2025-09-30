@@ -2,7 +2,7 @@ const data = {
   name: "Peter Parker",
   address: "123 Main Street, New York, NY",
   email: "peter.parker@email.com",
-  avatar: "/images/cara.png",
+  avatar: "/images/cara.avif",
   aboutMe:
     "I'm a passionate web development student currently finishing my first year of a master degree. This portfolio is a showcase of the projects and skills I’ve been developing during my studies. My goal is to continue growing as a web developer, taking on new challenges and applying creative solutions. I invite you to explore the projects I’ve worked on so far.",
 
@@ -63,43 +63,24 @@ const data = {
   projects: [
     {
       title: "Photos app",
-      preview:"/images/photosApp.png",
+      preview:"/images/photosApp.avif",
       description:"",
-      link: "https://proyecto-3-iota.vercel.app/",
+      linkVercel: "https://proyecto-3-iota.vercel.app/",
+      linkGit: "https://github.com/alber6/proyecto_3"
     },
     {
       title: "My first portfolio",
-      preview: "/images/myportfolio.png",
+      preview: "/images/myportfolio.avif",
       description: "",
-      link: "https://my-portfolio-bice-ten-73.vercel.app/",
-    },  {
-      title: "Olimpiadas",
-      preview:"/images/olimpiadas.png",
-      description:"",
-      link: "https://olimpiadas-mu-azure.vercel.app/",
-    },
-    {
-      title: "Gestor de libros",
-      preview: "/images/gestorLibro.png",
-      description: "XML",
-      link: "http://127.0.0.1:5500/index.html",
-    },  {
-      title: "Proyectos de 6ª E.P.",
-      preview:"/images/sexto.png",
-      description:"",
-      link: "http://trabajos-sexto.vercel.app/",
-    },
-    {
-      title: "Jedi Survivor",
-      preview: "/images/jediProject.png",
-      description: "",
-      link: "https://jedisurvivor.vercel.app/",
+      linkVercel: "https://my-portfolio-bice-ten-73.vercel.app/",
+      linkGit: "https://github.com/alber6/my-portfolio"
     },
     {
       title: "A.P.G",
-      preview: "/images/apg.png",
+      preview: "/images/apg.avif",
       description: "",
-      link: "https://apg-khaki.vercel.app/",
+      linkVercel: "https://apg-khaki.vercel.app/",
+      linkGit: "https://github.com/alber6/APG"
     }
   ],
 };
