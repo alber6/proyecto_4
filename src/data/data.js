@@ -14,17 +14,17 @@ const data = {
   }, {
     degree: "Técnico superior en desarrollo de aplicaciones Web",
     university: "ThePower Education",
-    graduationYear: 2025,
+    graduationYear: 2024,
     Courses: "Studying second year"
   }, {
     degree: "Máster Desarrollo de Aplicaciones Web",
     university: "ThePower Education",
-    graduationYear: 2025,
+    graduationYear: 2024,
     Courses: "Studying second year"
   },{
     degree: "Certificaciones · Tech",
     university: "ThePower Education",
-    graduationYear: 2025,
+    graduationYear: "in progress",
     Courses: "Studying Microsoft Azure"
   },
 ],
