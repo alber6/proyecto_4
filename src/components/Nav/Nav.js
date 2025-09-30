@@ -24,9 +24,6 @@ const Nav = (links) => `
             <a href="${link.path}">${link.name}</a>
         </li>
         `).join("")}
-        <li>
-          <a href="/src/cv/cv.html" class="cv-link" target="_blank">CV</a>
-        </li>
          <li>
         <button id="themeBtn">☀</button>
         </li>

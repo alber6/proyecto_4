@@ -19,6 +19,11 @@ const links = [
     name: "Projects",
     path: "#projects",
   },
+  {
+    name: "CV",
+    path: "/src/cv/cv.html",
+  },
+
 ];
 
 const Header = () =>
