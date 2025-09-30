@@ -25,7 +25,7 @@ const Nav = (links) => `
         </li>
         `).join("")}
         <li>
-          <a href="/src/cv/cv.html" class="cv-link" target="_blank">CV</a>
+          <a href="src/cv/cv.html" class="cv-link" target="_blank">CV</a>
         </li>
          <li>
         <button id="themeBtn">☀</button>
