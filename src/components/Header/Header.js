@@ -21,7 +21,7 @@ const links = [
   },
   {
     name: "CV",
-    path: "/src/cv/cv.html",
+    path: "/cv/cv.html",
   },
 
 ];
