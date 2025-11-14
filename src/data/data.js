@@ -81,6 +81,13 @@ const data = {
       description: "",
       linkVercel: "https://apg-khaki.vercel.app/",
       linkGit: "https://github.com/alber6/APG"
+    },
+     {
+      title: "Pokedex",
+      preview: "/images/pokedex.png",
+      description: "",
+      linkVercel: "pokedex-tawny-mu-97.vercel.app",
+      linkGit: "https://github.com/alber6/Pokedex"
     }
   ],
 };
