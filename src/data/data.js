@@ -88,6 +88,13 @@ const data = {
       description: "",
       linkVercel: "https://pokedex-tawny-mu-97.vercel.app/",
       linkGit: "https://github.com/alber6/Pokedex"
+    },
+    {
+      title: "Several Forms with CSS",
+      preview: "/images/forms.png",
+      description: "",
+      linkVercel: "forms-jade.vercel.app",
+      linkGit: "https://github.com/alber6/SeveralForms"
     }
   ],
 };
