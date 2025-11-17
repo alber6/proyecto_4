@@ -15,10 +15,6 @@ section {
 }
 
 #aboutme > div > ul{
-  /* display: flex;
-  flex-direction: column;
-  gap: 5px;
-  align-items: center; */
   display: grid;
   grid-template-columns: repeat(2, minmax(100px, 500px));
   grid-gap: 20px;
@@ -110,7 +106,7 @@ section {
 }
 }
 @media screen and (max-width: 660px) {
-section, button, nav{
+section, button, nav, p{
   font-size: 0.9rem;
 }
 

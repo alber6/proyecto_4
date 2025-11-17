@@ -72,43 +72,43 @@ const data = {
     "Git",
     // "Frontend and Backend Development",
   ],
-  projects: [
-    {
-      title: "Photos app",
-      preview:"/images/photosApp.avif",
-      description:"",
-      linkVercel: "https://proyecto-3-iota.vercel.app/",
-      linkGit: "https://github.com/alber6/proyecto_3"
-    },
-    {
-      title: "My first portfolio",
-      preview: "/images/myportfolio.avif",
-      description: "",
-      linkVercel: "https://my-portfolio-bice-ten-73.vercel.app/",
-      linkGit: "https://github.com/alber6/my-portfolio"
-    },
-    {
-      title: "A.P.G",
-      preview: "/images/apg.avif",
-      description: "",
-      linkVercel: "https://apg-khaki.vercel.app/",
-      linkGit: "https://github.com/alber6/APG"
-    },
-     {
-      title: "Pokedex",
-      preview: "/images/pokedex.png",
-      description: "",
-      linkVercel: "https://pokedex-tawny-mu-97.vercel.app/",
-      linkGit: "https://github.com/alber6/Pokedex"
-    },
-    {
-      title: "Several Forms",
-      preview: "/images/forms.png",
-      description: "",
-      linkVercel: "forms-jade.vercel.app",
-      linkGit: "https://github.com/alber6/SeveralForms"
-    }
-  ],
+projects: [
+  {
+    title: "Photos app",
+    preview:"/images/photosApp.avif",
+    description:"Interactive image search application using Unsplash API with dynamic filtering by name, colors, and orientation through JavaScript events.",
+    linkVercel: "https://proyecto-3-iota.vercel.app/",
+    linkGit: "https://github.com/alber6/proyecto_3"
+  },
+  {
+    title: "My first portfolio",
+    preview: "/images/myportfolio.avif",
+    description: "Component-based portfolio built with Vite featuring dark/light theme toggle and smooth with several pages navigation.",
+    linkVercel: "https://my-portfolio-bice-ten-73.vercel.app/",
+    linkGit: "https://github.com/alber6/my-portfolio"
+  },
+  {
+    title: "A.P.G",
+    preview: "/images/apg.avif",
+    description: "Enhanced portfolio with component architecture and AI chatbot integration (currently inactive - requires local n8n connection).",
+    linkVercel: "https://apg-khaki.vercel.app/",
+    linkGit: "https://github.com/alber6/APG"
+  },
+   {
+    title: "Pokedex",
+    preview: "/images/pokedex.png",
+    description: "Interactive Pokémon card application with flip animations and dynamic type-based color styling using JavaScript events.",
+    linkVercel: "https://pokedex-tawny-mu-97.vercel.app/",
+    linkGit: "https://github.com/alber6/Pokedex"
+  },
+  {
+    title: "Several Forms",
+    preview: "/images/forms.png",
+    description: "Multi-form application with Express.js backend for data persistence, featuring responsive and dynamic CSS design.",
+    linkVercel: "forms-jade.vercel.app",
+    linkGit: "https://github.com/alber6/SeveralForms"
+  }
+],
 };
 
 export default data;
