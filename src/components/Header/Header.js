@@ -20,7 +20,7 @@ const links = [
     path: "#projects",
   },
   {
-    name: "CV",
+    name: "C.V.  ",
     path: "/cv/cv.html",
   },
 
