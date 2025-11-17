@@ -3,6 +3,7 @@
     background-color: #ffd17b;
     padding: 10px;
     width: 200px;
+   color: #000000;
 }
 
 #btnEducation:hover, #btnExperience:hover{
