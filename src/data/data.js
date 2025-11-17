@@ -7,44 +7,56 @@ const data = {
     "I'm a passionate web development student currently finishing my first year of a master degree. This portfolio is a showcase of the projects and skills I’ve been developing during my studies. My goal is to continue growing as a web developer, taking on new challenges and applying creative solutions. I invite you to explore the projects I’ve worked on so far.",
 
   education: [{
-    degree: "Curso Profesional de Python.",
-    university: "AEPI. Asociación Española de Programadores Informáticos",
+    degree: "Professional Python Course",
+    university: "AEPI. Spanish Association of Computer Programmers",
     graduationYear: 2024,
     Courses: ""
   }, {
-    degree: "Técnico superior en desarrollo de aplicaciones Web",
+    degree: "Higher Technician in Web Application Development",
     university: "ThePower Education",
     graduationYear: 2024,
     Courses: "Studying second year"
   }, {
-    degree: "Máster Desarrollo de Aplicaciones Web",
+    degree: "Master's Degree in Web Application Development",
     university: "ThePower Education",
     graduationYear: 2024,
     Courses: "Studying second year"
   },{
-    degree: "Certificaciones · Tech",
+    degree: "Tech Certifications",
     university: "ThePower Education",
     graduationYear: "in progress",
     Courses: "Studying Microsoft Azure"
   },
+  {
+    degree: "Course Javascript",
+    university: "Linkedin learning",
+    graduationYear: "in progress",
+    Courses: ""
+  },
+  {
+    degree: "Course React",
+    university: "Linkedin learning",
+    graduationYear: "in progress",
+    Courses: ""
+  },
 ],
   workExperience: [
     {
-      position: "In progress...",
-      company: "",
-      startDate: "",
-      endDate: "",
-      description:
-        "",
-    },
+    position: "Web Development Student",
+    company: "Self-Learning & Courses",
+    startDate: "2024",
+    endDate: "Present",
+    description:
+      "Intensive training in full-stack web development. Working on real-world projects, learning industry best practices, and building a portfolio of applications.",
+  },
     {
-      position: "In progress...",
-      company: "",
-      startDate: "",
-      endDate: "",
-      description:
-        "",
-    },
+    position: "Aspiring Full Stack Developer",
+    company: "Independent Study",
+    startDate: "2024",
+    endDate: "Present",
+    description:
+      "Actively building web applications and expanding technical expertise in JavaScript, React, Node.js, and database management. Completing hands-on projects to develop practical development skills.",
+  },
   ],
   skills: [
     "HTML5",
@@ -53,9 +65,9 @@ const data = {
     "React",
     "Node.js",
     "Python",
-    "n8n",
+    "Express.js",
     // "Express.js",
-    // "MongoDB",
+    "MongoDB",
     // "RESTful API",
     "Git",
     // "Frontend and Backend Development",
@@ -90,7 +102,7 @@ const data = {
       linkGit: "https://github.com/alber6/Pokedex"
     },
     {
-      title: "Several Forms with CSS",
+      title: "Several Forms",
       preview: "/images/forms.png",
       description: "",
       linkVercel: "forms-jade.vercel.app",

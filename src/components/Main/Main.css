@@ -5,3 +5,131 @@ section {
 .hidden{
   display: none;
 }
+/* caracteristicas css para section aboutme */
+#aboutme > div{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 500px));
+  grid-gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#aboutme > div > ul{
+  /* display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 500px));
+  grid-gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#aboutme > div > ul > li {
+  background: rgba(139, 69, 19, 0.15);
+  border: 3px solid rgba(139, 69, 19, 0.4);
+  border-radius: 2px;
+  width: 120px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+#aboutme > div > ul > li:hover {
+  transform: translateY(-3px);
+  border-color: var(--highlight);
+  background: rgba(255, 209, 123, 0.1);
+  box-shadow: 0 5px 15px rgba(255, 209, 123, 0.2);
+}
+
+.light #aboutme > div > ul > li {
+  background: rgba(139, 69, 19, 0.08);
+  border: 2px solid rgba(139, 69, 19, 0.3);
+}
+
+.light #aboutme > div > ul > li:hover {
+  border-color: #d9a84e;
+  background: rgba(217, 168, 78, 0.15);
+  box-shadow: 0 5px 15px rgba(217, 168, 78, 0.2);
+}
+
+#aboutme > div > img { 
+  margin: auto; 
+  width: 200px;
+  border-radius: 20px;
+  height: 300px;
+   transition: transform 0.6s ease-in-out;
+  cursor: pointer;
+}  
+
+/* css para education y experience */
+#education h1 {
+  margin-bottom: 10px;
+}
+#experience h1{
+  margin-bottom: 30px;
+}
+
+#education h3, #experience h3 {
+  color: var(--highlight);
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  font-weight: 700;
+}
+
+#experience h3:last-of-type, #education h3{
+  padding-top: 10px;
+}
+
+.light #education h3, .light #experience h3 {
+  color: #d9a84e;
+}
+
+#experience > p:last-of-type::after,  #education p:last-of-type{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
+}
+
+.light #education p:last-of-type, .light #experience > p:last-of-type::after {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 961px) {
+  #aboutme > div > ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+}
+}
+@media screen and (max-width: 660px) {
+section, button, nav{
+  font-size: 0.9rem;
+}
+
+ #aboutme > div{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#aboutme > div > ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+#aboutme > div > ul > li{
+  margin: 2px;
+  width: 90px;
+}
+}

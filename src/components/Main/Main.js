@@ -53,8 +53,8 @@ const Experience = () =>{
   return `
       <h1>EXPERIENCE</h1>
       ${data.workExperience.map((d) => `
-        <h3>${d.position} ${d.company}</h3>
-        <p>${d.startDate}${d.endDate}</p>
+        <h3>${d.position} - ${d.company}</h3>
+        <p>${d.startDate} -- ${d.endDate}</p>
         <p>${d.description}</p>
       `).join("")}
   `
