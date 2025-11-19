@@ -25,7 +25,7 @@ const ChangeImg = () => {
     
     // Cambiar la imagen en el momento exacto de la media vuelta
     setTimeout(() => {
-      if(img.src.includes("jedi.jpeg")){
+      if(img.src.includes("jedi.avif")){
         img.src = data.avatar;
       } else {
         img.src = "/images/jedi.avif";
