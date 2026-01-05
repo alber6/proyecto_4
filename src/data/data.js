@@ -91,7 +91,7 @@ projects: [
     title: "A.P.G",
     preview: "/images/apg.avif",
     description: "Enhanced portfolio with component architecture and AI chatbot integration (currently inactive - requires local n8n connection).",
-    linkVercel: "https://apg-khaki.vercel.app/",
+    linkVercel: "https://apg-alpha.vercel.app/",
     linkGit: "https://github.com/alber6/APG"
   },
    {
