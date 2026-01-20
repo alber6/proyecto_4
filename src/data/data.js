@@ -65,6 +65,8 @@ const data = {
     "React",
     "Node.js",
     "Python",
+    "Make",
+    "n8n",
     "Express.js",
     // "Express.js",
     "MongoDB",
@@ -96,7 +98,7 @@ projects: [
   },
    {
     title: "Pokedex",
-    preview: "/images/poKedex.png",
+    preview: "/images/pokedex.png",
     description: "Interactive Pokémon card application with flip animations and dynamic type-based color styling using JavaScript events and API pokedex.",
     linkVercel: "https://pokedex-tawny-mu-97.vercel.app/",
     linkGit: "https://github.com/alber6/Pokedex"
