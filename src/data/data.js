@@ -96,8 +96,8 @@ projects: [
   },
    {
     title: "Pokedex",
-    preview: "/images/pokedex.png",
-    description: "Interactive Pokémon card application with flip animations and dynamic type-based color styling using JavaScript events.",
+    preview: "/images/poKedex.png",
+    description: "Interactive Pokémon card application with flip animations and dynamic type-based color styling using JavaScript events and API pokedex.",
     linkVercel: "https://pokedex-tawny-mu-97.vercel.app/",
     linkGit: "https://github.com/alber6/Pokedex"
   },
@@ -105,8 +105,15 @@ projects: [
     title: "Several Forms",
     preview: "/images/forms.png",
     description: "Multi-form application with Express.js backend for data persistence, featuring responsive and dynamic CSS design.",
-    linkVercel: "forms-jade.vercel.app",
+    linkVercel: "https://forms-jade.vercel.app/",
     linkGit: "https://github.com/alber6/SeveralForms"
+  },
+   {
+    title: "Aqua-Flow Plumbing",
+    preview: "/images/aquaFlow.png",
+    description: "Responsive landing page featuring a dynamic quote form integrated with Make and Gmail for real-time lead automation and urgency filtering.",
+    linkVercel: "https://aqua-flow-plumbing.vercel.app/",
+    linkGit: "https://github.com/alber6/AquaFlowPlumbing"
   }
 ],
 };

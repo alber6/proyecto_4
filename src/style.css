@@ -62,7 +62,7 @@ a > img {
 
 #gallery{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 10px;
 }
 
@@ -103,7 +103,7 @@ a > img {
 
 #gallery > div > img{
   height: 200px;
-  width: 300px;
+  width: 400px;
   border-radius: 5px;
 }
 #link {
@@ -112,3 +112,12 @@ a > img {
   gap: 20px;
 }
 
+@media screen and (max-width: 426px) {
+#gallery > div > img{
+  width: 310px;
+  height: 150px;
+}
+#gallery > div {
+  width: 310px;
+}
+}
