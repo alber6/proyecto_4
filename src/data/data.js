@@ -116,6 +116,26 @@ projects: [
     description: "Responsive landing page featuring a dynamic quote form integrated with Make and Gmail for real-time lead automation and urgency filtering.",
     linkVercel: "https://aqua-flow-plumbing.vercel.app/",
     linkGit: "https://github.com/alber6/AquaFlowPlumbing"
+  },
+     {
+    title: "Gestión de usarios",
+    preview: "/images/BackendArchi.png",
+    description: "Secure Node.js & MongoDB API with RBAC and automated Cloudinary image sync.",
+    linkGit: "https://github.com/alber6/Backend.git"
+  },
+     {
+    title: "Sueños Valentí - Servidor",
+    preview: "/images/SueServer.png",
+    description: "Node.js & Express web app featuring authentication, session-based cart, and JSON data persistence.",
+    linkVercel: "https://sue-valenti-server.vercel.app/",
+    linkGit: "https://github.com/alber6/SueValenti-Server.git"
+  },
+       {
+    title: "QuantumLeap",
+    preview: "/images/quantumLeap.png",
+    description: "Futuristic visual showcase demonstrating the power of modern CSS through neon aesthetics, fluid animations, and responsive design principles.",
+    linkVercel: "https://quantum-leap-tau.vercel.app/",
+    linkGit: "https://github.com/alber6/QuantumLeap.git"
   }
 ],
 };
