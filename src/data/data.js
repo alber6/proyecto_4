@@ -75,6 +75,13 @@ const data = {
     // "Frontend and Backend Development",
   ],
 projects: [
+   {
+    title: "Dinomath ",
+    preview:"/images/dinodex.png",
+    description:"Project TFG. A full-stack educational web application (React, Node.js, MongoDB) designed to eliminate children's math anxiety through gamification.",
+    linkVercel: "https://dinomath-dm.vercel.app/",
+    linkGit: "https://github.com/alber6/dinomath-front"
+  },
   {
     title: "Photos app",
     preview:"/images/photosApp.avif",
