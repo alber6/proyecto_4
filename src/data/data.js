@@ -83,6 +83,13 @@ projects: [
     linkGit: "https://github.com/alber6/dinomath-front"
   },
   {
+    title: "Canine Coach AI",
+    preview: "/images/canine.png",
+    description: "Fullstack AI-powered application acting as a virtual dog trainer. Built with a Node.js backend orchestrating prompts to the Google Gemini API to return structured JSON diagnostics on a responsive UI.",
+    linkVercel: "https://canine-coach.onrender.com/",
+    linkGit: "https://github.com/alber6/canine-coach"
+  },
+  {
     title: "Photos app",
     preview:"/images/photosApp.avif",
     description:"Interactive image search application using Unsplash API with dynamic filtering by name, colors, and orientation through JavaScript events.",
