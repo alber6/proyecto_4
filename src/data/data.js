@@ -28,6 +28,18 @@ const data = {
     Courses: "Studying Microsoft Azure"
   },
   {
+    degree: "Professional Python Course (100h)",
+    university: "AEPI (Asociación Española de Programadores Informáticos)",
+    graduationYear: "2024",
+    Courses: "Object-Oriented Programming (OOP), SQLite, Web Scraping (BeautifulSoup), File Handling."
+  },
+  {
+    degree: "English Advanced - C1 (Reading & Writing)",
+    university: "Language Proficiency",
+    graduationYear: "Present",
+    Courses: ""
+  },
+  {
     degree: "Course Javascript",
     university: "Linkedin learning",
     graduationYear: "in progress",
@@ -48,7 +60,14 @@ const data = {
     endDate: "Present",
     description:
       "Intensive training in full-stack web development. Working on real-world projects, learning industry best practices, and building a portfolio of applications.",
-  },
+    },
+    {
+    position: "Front-End Development Intern",
+    company: "Seccion9",
+    startDate: "March 2026",
+    endDate: "Present",
+    description: "Migrated legacy WordPress sites to high-performance HTML, SCSS, JS, and PHP architectures. Ensured pixel-perfect responsive designs using BEM methodology and collaborated through Git/GitHub workflows to manage code deployments and QA testing."
+    },
     {
     position: "Aspiring Full Stack Developer",
     company: "Independent Study",
@@ -68,11 +87,9 @@ const data = {
     "Make",
     "n8n",
     "Express.js",
-    // "Express.js",
     "MongoDB",
-    // "RESTful API",
+    "RESTful API",
     "Git",
-    // "Frontend and Backend Development",
   ],
 projects: [
    {
