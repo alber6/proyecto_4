@@ -21,7 +21,7 @@ const links = [
   },
   {
     name: "C.V.  ",
-    path: "/cv/CV_Alberto_Peinado_WebDev.pdf",
+    path: "/cv/CV_Alberto_Peinado_DevWeb.pdf",
   },
 
 ];
